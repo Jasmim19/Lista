@@ -1,0 +1,6 @@
+def dobro(c):
+    d=c*2
+    print(d)
+    
+c=int(input())
+dobro(c)
