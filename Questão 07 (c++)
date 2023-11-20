@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+void fpc()
+{
+    float C, F;
+    cin>> C;
+    F=C*(9.0/5.0) + 32.0;
+    cout<<F;
+}
+
+int main()
+{
+    
+    fpc();
+
+    return 0;
+}
