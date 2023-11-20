@@ -1,0 +1,58 @@
+#include <iostream>
+
+using namespace std;
+
+void data()
+{
+    int d, m, a;
+    cin>>d;
+    cin>>m;
+    cin>>a;
+    if(d>0 and d<=31){
+        if(m>0 and m<=12){
+            if(m==01){
+                cout<<d<<" de janeiro de "<<a;
+            }
+            if(m==02){
+                cout<<d<<" de fevereiro de "<<a;
+            }
+            if(m==03){
+                cout<<d<<" de março de "<<a;
+            }
+            if(m==04){
+                cout<<d<<" de abril de "<<a;
+            }
+            if(m==05){
+                cout<<d<<" de maio de "<<a;
+            }
+            if(m==06){
+                cout<<d<<" de junho de "<<a;
+            }
+            if(m==07){
+                cout<<d<<" de julho de "<<a;
+            }
+            if(m==8){
+                cout<<d<<" de agosto de "<<a;
+            }
+            if(m==9){
+                cout<<d<<" de setembro de "<<a;
+            }
+            if(m==10){
+                cout<<d<<" de outubro de "<<a;
+            }
+            if(m==11){
+                cout<<d<<" de novembro de "<<a;
+            }
+            if(m==12){
+                cout<<d<<" de dezembro de "<<a;
+            }
+        }
+    }
+}
+
+int main()
+{
+    data();
+
+    return 0;
+}
